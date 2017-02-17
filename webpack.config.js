@@ -2,7 +2,9 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: 'build/',
-        filename: "phaser-ui.js"
+        filename: "phaser-ui.js",
+        library: 'phaserUi',
+        libraryTarget: 'umd'
     }
     /*,
     module: {
